@@ -27,7 +27,7 @@ func commandListener(event *events.ApplicationCommandInteractionCreate) {
 
 	switch command {
 	case "help":
-		help := "\n`reset` - Reset *your* chat history with the bot\n`play/p` <query> - Plays a track\n`search/s` <query> - Searches for a track\n`stop` - Stops the current track\n`pause` - Pauses the current track\n`resume/unpause` - Resumes the current track\n`skip` - Skips the current track\n`join` - Joins the voice channel\n`leave` - Leaves the voice channel\n`queue` - Displays the queue\n`playing` - Displays the currently playing track"
+		help := "**LLM**:\n`reset`: Resets the users chat history with the bot\n**Random**:\n`joel`: Posts a random or specific joel if a parameter is provided\n`ttj`: Posts Time to Joel (latency test)\n**Music**:\n`play`: Plays a song, accepts an URL or a search query\n`stop`: Stops the current song\n`pause`: Pauses the current song\n`resume`: Resumes the current song\n`skip`: Skips the current song\n`join`: Joins the voice channel\n`leave`: Leaves the voice channel\n`queue`: Shows the queue\n`playing`: Shows the current song"
 		reply(event, help)
 
 	case "joel":
