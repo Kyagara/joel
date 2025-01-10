@@ -44,7 +44,7 @@ func ttj(event *events.ApplicationCommandInteractionCreate) {
 	ttj := fmt.Sprintf("TTJ took %dms", since.Abs().Milliseconds())
 	fmt.Println(ttj)
 
-	image, err := os.Open("./assets/Joel.gif")
+	image, err := os.Open("./assets/Joel.webp")
 	if err != nil {
 		fmt.Printf("Error opening file: %v\n", err)
 		return

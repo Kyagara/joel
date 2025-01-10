@@ -18,15 +18,16 @@ Plays music using [Lavalink](https://github.com/lavalink-devs/Lavalink), play co
 
 `help`, `reset`, `joel`, `ttj`, `play`, `stop`, `pause`, `resume`, `skip`, `join`, `leave`, `queue`, `playing`
 
-- reset: Resets the users chat history with the bot
-- joel: Posts JOEL
-- ttj: Posts Time to Joel (latency test)
-- play: Plays a song
-- stop: Stops the current song
-- pause: Pauses the current song
-- resume: Resumes the current song
-- skip: Skips the current song
-- join: Joins the voice channel
-- leave: Leaves the voice channel
-- queue: Shows the queue
-- playing: Shows the current song
+- `help`: Displays all available commands
+- `reset`: Resets the users chat history with the bot
+- `joel`: Posts a random or specific joel if a parameter is provided
+- `ttj`: Posts Time to Joel (latency test)
+- `play`: Plays a song
+- `stop`: Stops the current song
+- `pause`: Pauses the current song
+- `resume`: Resumes the current song
+- `skip`: Skips the current song
+- `join`: Joins the voice channel
+- `leave`: Leaves the voice channel
+- `queue`: Shows the queue
+- `playing`: Shows the current song

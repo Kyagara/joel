@@ -21,7 +21,7 @@ type Client struct {
 }
 
 func NewClient() error {
-	assets, err := os.ReadDir("assets")
+	assets, err := os.ReadDir("./assets")
 	if err != nil {
 		return err
 	}
